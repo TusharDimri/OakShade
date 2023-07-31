@@ -11,26 +11,12 @@ badge = document.querySelector('w-webflow-badge');
 badge.style.display = 'none';
 
 function handleClick() {
-  console.log('Button clicked!')
-  window.botpressWebChat.sendPayload({
-    type: 'trigger',
-    payload: {
-      myCustomProperty: 'hello',
-    },
-  })
+  console.log('Button clicked!');
+  window.botpressWebChat.sendEvent({ type: 'show' });
 }
 
-const button = document.getElementById('gs')
-button.addEventListener('click', handleClick)
-
-window.botpressWebChat.onEvent(
-  function (event) {
-    if (event.type === 'LIFECYCLE.LOADED') {
-      window.botpressWebChat.sendEvent({ type: 'show' })
-    }
-  },
-  ['LIFECYCLE.LOADED']
-)
+const button = document.getElementById('gs');
+button.addEventListener('click', handleClick);
 
 
 
