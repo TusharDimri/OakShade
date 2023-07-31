@@ -4087,6 +4087,8 @@ figcaption {
 .navbar-wrapper-2 {
   width: 100%;
   opacity: 1;
+  /* Transparent Navbar */
+  background-color: rgba(0,0,0,0.7);
   border: .0625rem solid rgba(0, 0, 0, 0);
   justify-content: space-between;
   align-items: center;
