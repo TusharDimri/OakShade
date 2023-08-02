@@ -12,8 +12,8 @@
         window.botpressWebChat.sendEvent({ type: 'show' })
       }
  
-      const button = document.getElementById('gs1')
-      button.addEventListener('click', handleClick)
+      const button1 = document.getElementById('gs1')
+      button1.addEventListener('click', handleClick)
 
       const button = document.getElementById('gs2')
       button.addEventListener('click', handleClick)
