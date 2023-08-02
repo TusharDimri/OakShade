@@ -9,14 +9,5 @@
  */
 
 
-// Get Started
-// function handleClick() {
-//   console.log('Button clicked!')
-//   window.botpressWebChat.sendEvent({ type: 'show' })
-// }
-
-// const button = document.getElementById('gs')
-// button.addEventListener('click', handleClick)
-
 
 
