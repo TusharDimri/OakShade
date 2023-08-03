@@ -6,7 +6,6 @@ html {
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -3875,8 +3874,7 @@ figcaption {
   z-index: 5;
   width: 64.375rem;
   max-width: 100%;
- 
-
+  background-color: rgba(0, 0, 0, 0);
   margin-left: auto;
   margin-right: auto;
   padding: .9375rem 1.25rem;
